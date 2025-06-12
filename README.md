@@ -8,7 +8,7 @@ DC-gra2seq equips sketch patches with context-aware positional encoding (PE) to 
 
 <img src="https://github.com/SCZang/DC-gra2seq/blob/9cb6fce9d5526f55656237175ab01e82a44dc63b/assets/overview.png" width="600" alt="overview"/>
 
-This repo contains official source codes and [pre-trained models]() for `DC-gra2seq`, and its corresponding article can be found at [link](https://www.sciencedirect.com/science/article/pii/S1077314225001080).
+This repo contains official source codes and [pre-trained models](https://pan.baidu.com/s/1GbPbrBKq4ESPGXDeYis_mw?pwd=tkzd) for `DC-gra2seq`, and its corresponding article can be found at [link](https://www.sciencedirect.com/science/article/pii/S1077314225001080).
 
 # Training a DC-gra2seq
 
@@ -62,7 +62,7 @@ python calculate_Ret.py
 
 * Please make sure both the metrics are computed with the entire test set (i.e., num_per_category=2500 in `sample.py`).
 
-* We also provide the random seeds in `random_seed.npy` (stored in the .zip file in [link](https://jbox.sjtu.edu.cn/l/i193TY)) for creating the random masks for sketch healing. These seeds are the specific ones utilized in the article for the sketch healing performance evaluation. You can use them to make a fair comparison with the benchmarks in the article.
+* We also provide the random seeds in [random_seed.npy](https://pan.baidu.com/s/10vbgD7P1jk6oD6g3stO8gA?pwd=f49r) for creating random masks for sketch healing. These seeds are the specific ones utilized in the article for sketch healing performance evaluation. You can use them to make a fair comparison with the benchmarks in the article.
 
 # Citation
 If you find this project useful for academic purposes, please cite it as:
